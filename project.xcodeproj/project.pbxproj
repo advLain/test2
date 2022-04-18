@@ -13,7 +13,6 @@
 		19AEA8A9280206A90039FB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AEA8A7280206A90039FB31 /* Main.storyboard */; };
 		19AEA8AB280206AB0039FB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AEA8AA280206AB0039FB31 /* Assets.xcassets */; };
 		19AEA8AE280206AB0039FB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AEA8AC280206AB0039FB31 /* LaunchScreen.storyboard */; };
-		19C7A509280DE6F2005000EB /* tyjyj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C7A508280DE6F2005000EB /* tyjyj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		19AEA8AA280206AB0039FB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19AEA8AD280206AB0039FB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19AEA8AF280206AB0039FB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19C7A508280DE6F2005000EB /* tyjyj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tyjyj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +56,7 @@
 		19AEA8A0280206A90039FB31 /* project */ = {
 			isa = PBXGroup;
 			children = (
-				19C7A507280DE67A005000EB /* New Group1 */,
-				19C7A506280DE676005000EB /* New Group */,
+				19AEA8A3280206A90039FB31 /* SceneDelegate.swift */,
 				19AEA8A1280206A90039FB31 /* AppDelegate.swift */,
 				19AEA8A5280206A90039FB31 /* ViewController.swift */,
 				19AEA8A7280206A90039FB31 /* Main.storyboard */,
@@ -68,22 +65,6 @@
 				19AEA8AF280206AB0039FB31 /* Info.plist */,
 			);
 			path = project;
-			sourceTree = "<group>";
-		};
-		19C7A506280DE676005000EB /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				19C7A508280DE6F2005000EB /* tyjyj.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		19C7A507280DE67A005000EB /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-				19AEA8A3280206A90039FB31 /* SceneDelegate.swift */,
-			);
-			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C7A509280DE6F2005000EB /* tyjyj.swift in Sources */,
 				19AEA8A6280206A90039FB31 /* ViewController.swift in Sources */,
 				19AEA8A2280206A90039FB31 /* AppDelegate.swift in Sources */,
 				19AEA8A4280206A90039FB31 /* SceneDelegate.swift in Sources */,
